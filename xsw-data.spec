@@ -7,8 +7,8 @@ License:	Modified GPL
 Group:		Applications/Games
 Group(de):	Applikationen/Spiele
 Group(pl):	Aplikacje/Gry
-Source0:	ftp://fox.mit.edu/pub/%{name}/xswdata%{version}.tgz
-URL:		http://wolfpack.tfu.net/ShipWars/XShipWars/
+Source0:	ftp://gd.tuwien.ac.at/games/wolfpack/xswdata-%{version}.tar.bz2
+URL:		http://wolfpack.twu.net/ShipWars/XShipWars/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix	/usr/X11R6
