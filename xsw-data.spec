@@ -6,6 +6,7 @@ Release:	2
 License:	GPL-like
 Group:		Applications/Games
 Source0:	ftp://gd.tuwien.ac.at/games/wolfpack/xswdata-%{version}.tar.bz2
+# Source0-md5:	065d7b1b3a526382578c7c5a12d62d80
 URL:		http://wolfpack.twu.net/ShipWars/XShipWars/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
