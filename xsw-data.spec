@@ -23,10 +23,12 @@ This package contains some data needed for the game client.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/%{_datadir}/xshipwars/
+install -d $RPM_BUILD_ROOT{%{_datadir}/xshipwars/,%{_sysconfdir}}
 
 cd $RPM_BUILD_ROOT/%{_datadir}/xshipwars/
 tar xzf %{SOURCE0}
+rm etc/xshipwarsrc # comes with client
+mv etc $RPM_BUILD_ROOT%{_sysconfdir}/xshipwars
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -34,3 +36,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{_datadir}/xshipwars/*
+%{_sysconfdir}/xshipwars/*
