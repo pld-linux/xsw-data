@@ -9,7 +9,6 @@ Source0:	ftp://gd.tuwien.ac.at/games/wolfpack/xswdata-%{version}.tar.bz2
 URL:		http://wolfpack.twu.net/ShipWars/XShipWars/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix	/usr/X11R6
 
 %description
 XShipWars is a highly customizable and massivly multiplayer space
