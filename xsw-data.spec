@@ -11,10 +11,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix	/usr/X11R6
 
-%description 
+%description
 XShipWars is a highly customizable and massivly multiplayer space
-gamming system designed for play entirly over the Internet.
-This package contains some data needed for the game client.
+gamming system designed for play entirly over the Internet. This
+package contains some data needed for the game client.
 
 %description -l pl
 XShipWars to wysoko konfigurowalny system gry w przestrzeni kosmicznej
