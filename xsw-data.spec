@@ -2,8 +2,8 @@ Summary:	XShipWars data
 Summary(pl):	Dane do XShipWars
 Name:		xsw-data
 Version:	1.33d
-Release:	1
-License:	Modified GPL
+Release:	2
+License:	GPL-like
 Group:		Applications/Games
 Source0:	ftp://gd.tuwien.ac.at/games/wolfpack/xswdata-%{version}.tar.bz2
 URL:		http://wolfpack.twu.net/ShipWars/XShipWars/
