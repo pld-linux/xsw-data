@@ -1,4 +1,5 @@
 Summary:	XShipWars data
+Summary(pl):	Dane do XShipWars
 Name:		xsw-data
 Version:	1.33d
 Release:	1
@@ -17,18 +18,21 @@ XShipWars is a highly customizable and massivly multiplayer space
 gamming system designed for play entirly over the Internet.
 This package contains some data needed for the game client.
 
-%prep
+%description -l pl
+XShipWars to wysoko konfigurowalny system gry w przestrzeni kosmicznej
+dla wielu graczy, zaprojektowany do grania przez Internet. Ten pakiet
+zawiera dane potrzebne dla klienta gry.
 
-%build
+%prep
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_datadir}/xshipwars/,%{_sysconfdir}}
+install -d $RPM_BUILD_ROOT{%{_datadir}/xshipwars,%{_sysconfdir}}
 
-cd $RPM_BUILD_ROOT/%{_datadir}/xshipwars/
+cd $RPM_BUILD_ROOT%{_datadir}/xshipwars
 tar xzf %{SOURCE0}
-rm etc/xshipwarsrc # comes with client
-mv etc $RPM_BUILD_ROOT%{_sysconfdir}/xshipwars
+rm -f etc/xshipwarsrc # comes with client
+mv -f etc $RPM_BUILD_ROOT%{_sysconfdir}/xshipwars
 
 %clean
 rm -rf $RPM_BUILD_ROOT
