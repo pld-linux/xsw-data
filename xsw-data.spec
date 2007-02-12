@@ -1,5 +1,5 @@
 Summary:	XShipWars data
-Summary(pl.UTF-8):   Dane do XShipWars
+Summary(pl.UTF-8):	Dane do XShipWars
 Name:		xsw-data
 Version:	1.33d
 Release:	2
