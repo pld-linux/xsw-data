@@ -1,5 +1,5 @@
 Summary:	XShipWars data
-Summary(pl):	Dane do XShipWars
+Summary(pl.UTF-8):   Dane do XShipWars
 Name:		xsw-data
 Version:	1.33d
 Release:	2
@@ -16,7 +16,7 @@ XShipWars is a highly customizable and massivly multiplayer space
 gamming system designed for play entirly over the Internet. This
 package contains some data needed for the game client.
 
-%description -l pl
+%description -l pl.UTF-8
 XShipWars to wysoko konfigurowalny system gry w przestrzeni kosmicznej
 dla wielu graczy, zaprojektowany do grania przez Internet. Ten pakiet
 zawiera dane potrzebne dla klienta gry.
